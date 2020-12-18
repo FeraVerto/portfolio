@@ -1,0 +1,15 @@
+.contacts {
+    padding: 100px 0;
+    outline: 2px solid green;
+}
+
+.contacts_form {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_form button {
+    margin: 45px auto 0 auto;
+}

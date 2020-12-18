@@ -1,0 +1,23 @@
+.work {
+    width: 40%;
+    display: inline-block;
+}
+
+.work_img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.work_img img {
+    width: 100%;
+    height: 300px;
+}
+
+.work_img button {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}

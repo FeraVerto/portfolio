@@ -1,0 +1,19 @@
+.social {
+    padding: 100px 0;
+    outline: 2px solid green;
+}
+
+.social_list {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_item {
+    width: 35px;
+    height: 35px;
+    border: 2px solid green
+}

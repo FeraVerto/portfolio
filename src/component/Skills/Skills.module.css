@@ -1,0 +1,13 @@
+.skills {
+    padding: 100px 0;
+    outline: 2px solid green;
+}
+
+.skills_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
