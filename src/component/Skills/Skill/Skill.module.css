@@ -1,5 +1,6 @@
 .skill_item {
     padding: 20px;
+    border: 2px solid green;
 }
 
 .skill_img {

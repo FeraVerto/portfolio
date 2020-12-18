@@ -11,3 +11,20 @@
     flex-wrap: wrap;
     list-style: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        padding: 10px 20px;
+        outline: 2px solid green;
+    }
+
+    .skills_list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+}

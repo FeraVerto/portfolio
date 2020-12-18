@@ -11,3 +11,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px) {
+    .works {
+        padding: 10px 20px;
+        outline: 2px solid green;
+    }
+
+    .works_list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
