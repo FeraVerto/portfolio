@@ -1,14 +1,18 @@
 .about {
     padding: 0;
+
+    height: 100vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    outline: 2px solid green;
-    height: 100vh;
+
+    background-color: bisque;
 }
 
 .about_block {
     width: 60%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,25 +20,33 @@
 
 .about_info {
     width: 250px;
+
     text-align: left;
+
+    background-color: cadetblue;
 }
 
 .about_photo {
     width: 200px;
     height: 300px;
-    border: 2px solid green;
+
+    background-color: cadetblue;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     .about {
-        padding: 10px 20px 20px 20px;
+        padding: 30px 20px;
         height: 100%;
     }
 
     .about_block {
         width: 100%;
         flex-direction: column;
+    }
+
+    .about_info {
+        margin-bottom: 15px;
     }
 
     .about_photo {

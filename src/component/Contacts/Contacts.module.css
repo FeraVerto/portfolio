@@ -1,11 +1,17 @@
 .contacts {
     padding: 100px 0;
-    outline: 2px solid green;
+
+    background-color: bisque;
+}
+
+.contacts h3 {
+    background-color: cadetblue;
 }
 
 .contacts_form {
     margin: 0 auto;
     width: 50%;
+
     display: flex;
     flex-direction: column;
 }
@@ -18,7 +24,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     .contacts {
-        padding: 10px 20px;
+        padding: 30px 20px;
         outline: 2px solid green;
     }
 
@@ -29,15 +35,21 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .example {background: blue;}
+    .example {
+        background: blue;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .example {background: orange;}
+    .example {
+        background: orange;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .example {background: pink;}
+    .example {
+        background: pink;
+    }
 }

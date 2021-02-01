@@ -4,6 +4,7 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    background-color: bisque;
 }
 
 .menu_item {

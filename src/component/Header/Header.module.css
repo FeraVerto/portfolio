@@ -1,9 +1,11 @@
 .header {
     padding: 40px;
+
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    outline: 2px solid green;
+
+    background-color: cadetblue;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
