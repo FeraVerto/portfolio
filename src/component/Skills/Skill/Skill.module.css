@@ -2,6 +2,7 @@
     padding: 20px;
     width: 300px;
     border: 2px solid green;
+    box-sizing: border-box;
 }
 
 .skill_img {

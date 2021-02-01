@@ -5,8 +5,7 @@ export const Work = () => {
     return (
         <li className={s.work}>
             <div className={s.work_img}>
-                <img src="" alt=""/>
-                <button>Смотреть</button>
+                <a>Смотреть</a>
             </div>
             <h3>Название проекта</h3>
             <p>Краткое описание</p>
