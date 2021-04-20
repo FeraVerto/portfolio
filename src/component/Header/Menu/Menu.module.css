@@ -7,8 +7,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    background-color: bisque;
 }
 
 .menu_item {
@@ -20,8 +18,9 @@
 }
 
 .item_link {
-    color: black;
+    color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -29,6 +28,7 @@
     .menu_list {
         width: 100%;
     }
+    
     .item_link {
         font-size: 12px;
         text-transform: uppercase;

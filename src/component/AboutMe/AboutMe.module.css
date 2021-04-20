@@ -1,34 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
 .about {
     padding: 0;
 
-    height: 100vh;
+    /*height: 100vh;*/
+    height: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 
 .about_block {
-    width: 60%;
+    width: 90%;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.about_info {
-    width: 250px;
-
+.about_h1 {
+    width: 70%;
+    color: white;
     text-align: left;
+}
 
-    background-color: cadetblue;
+.p_name {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 6rem;
+
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+
+    background-image: -webkit-linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+    background-image: linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.p_hi {
+    font-size: 2rem;
+    color: #6f6f6f;
+    background-image: none;
+    text-transform: uppercase;
+    /*
+    text-shadow: #fff 1px 1px 0, #dd1e4b -1px -1px 0, #fff -1px 1px 0, #ffe 1px -1px 0;;
+    */
+
+    /*font-size: 60px;
+    color: #000;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #ffb, -1px 1px 0 #fff, 1px 1px 0 #ffe;
+    */
+
 }
 
 .about_photo {
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 500px;
 
     background-color: cadetblue;
 }
@@ -58,15 +92,21 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .example {background: blue;}
+    .example {
+        background: blue;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .example {background: orange;}
+    .example {
+        background: orange;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .example {background: pink;}
+    .example {
+        background: pink;
+    }
 }
