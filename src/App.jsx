@@ -10,11 +10,14 @@ import {Contacts} from "./component/Contacts/Contacts";
 import {Footer} from "./component/Footer/Footer";
 
 import ReactPageScroller from "react-page-scroller";
+import {Exp} from "./component/Experimental/Experimental";
 
 function App() {
 
     return (
         <div className="App">
+
+            {/*<Exp/>*/}
             <header className={s.app_header}><Header/></header>
             <main className={s.main_wrapper}>
                 {/*<ReactPageScroller transitionTimingFunction={"cubic-bezier(0.42,0,1,1)"}
@@ -24,39 +27,38 @@ function App() {
                                    renderAllPagesOnFirstRender={true}
                                    >*/}
 
-                    <section className={`${s.app} ${s.app_aboutme}`}>
-                        <div className="section-wrapper">
-                            <AboutMe/>
-                        </div>
-                    </section>
-                    <section className={`${s.app} ${s.app_skills}`}>
-                        <div className="section-wrapper">
-                            <Skills/>
-                        </div>
-                    </section>
-                    <section className={`${s.app} ${s.app_works}`}>
-                        <div className="section-wrapper">
-                            <Works/>
-                        </div>
-                    </section>
-                    <section className={`${s.app} ${s.app_hireme}`}>
-                        <div className="section-wrapper">
-                            <HireMe/>
-                        </div>
-                    </section>
-                    <section className={`${s.app} ${s.app_contacts}`}>
-                        <div className="section-wrapper">
-                            <Contacts/>
-                        </div>
-                    </section>
-                    <section className={`${s.app} ${s.app_footer}`}>
-                        <div className="section-wrapper">
-                            <Footer/>
-                        </div>
-                    </section>
+                <section className={`${s.app} ${s.app_aboutme}`}>
+                    <div className="section-wrapper">
+                        <AboutMe/>
+                    </div>
+                </section>
+                <section className={`${s.app} ${s.app_skills}`}>
+                    <div className="section-wrapper">
+                        <Skills/>
+                    </div>
+                </section>
+                <section className={`${s.app} ${s.app_works}`}>
+                    <div className="section-wrapper">
+                        <Works/>
+                    </div>
+                </section>
+                <section className={`${s.app} ${s.app_hireme}`}>
+                    <div className="section-wrapper">
+                        <HireMe/>
+                    </div>
+                </section>
+                <section className={`${s.app} ${s.app_contacts}`}>
+                    <div className="section-wrapper">
+                        <Contacts/>
+                    </div>
+                </section>
+                <section className={`${s.app} ${s.app_footer}`}>
+                    <div className="section-wrapper">
+                        <Footer/>
+                    </div>
+                </section>
                 {/*</ReactPageScroller>*/}
             </main>
-
         </div>
     );
 }

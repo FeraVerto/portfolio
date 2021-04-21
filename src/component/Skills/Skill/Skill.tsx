@@ -10,9 +10,9 @@ type SkillType = {
 export const Skill: React.FC<SkillType> = ({title, description, icon}) => {
     return (
         <li className={s.skill_item}>
-            <img className={s.skill_img} src={icon} alt=""/>
             <div className={s.skill_background}>
                 <div className={s.skill_background2}>
+                    <img className={s.skill_img} src={icon} width={100} height={100} alt=""/>
                     <h3>{title}</h3>
                     <p>
                         {description}

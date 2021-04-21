@@ -1,15 +1,15 @@
 .skill_item {
-    padding: 20px;
+    margin-bottom: 60px;
     width: 350px;
-    min-height: 250px;
+    min-height: 300px;
 
     box-sizing: border-box;
 }
 
 
 .skill_img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .skill_background h3 {
@@ -26,26 +26,28 @@
 }
 
 .skill_background {
-    margin-top: 30px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #161616;
     position: relative;
     color: #8e8e8e;
+    background-image: -webkit-linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+    background-image: linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+}
+
+.skill_background2 {
+    padding: 30px;
+    z-index: 2;
+    background-color: #161616;
 }
 
 
-.skill_background:hover {
-    transform: translate(0, -15px);
+.skill_background2:hover {
+    transform: translate(-20px, -20px);
     transition: all 0.5s ease-in-out 0s;
     background: #121212;
     border: none;
-    background-image: -webkit-linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
-    background-image: linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
     color: white;
 }
-
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
