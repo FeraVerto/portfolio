@@ -16,37 +16,32 @@ export const Works = () => {
                 <Work title={"Mini project"}
                       img={homeworks}
                       link={'https://feraverto.github.io/simple-react-homeworks/'}
-                      description={"Social networkSocial network Social networkSocial " +
-                      "networkSocial networkSocial networkSocial networkSocial networknetworkSocial networkSocial networkSocial networknetworkSocial networkSocial networkSocial networknetworkSocial networkSocial networkSocial networknetworkSocial networkSocial networkSocial network"}/>
+                      description={"A project with various mini-components"}/>
 
                 <Work title={"Social network"}
                       img={socialN}
                       link={"https://feraverto.github.io/network-learning-project-typescript"}
-                      description={"Social networkSocial network Social networkSocial " +
-                      "networkSocial networkSocial networkSocial networkSocial networknetworkSocial networkSocial network"}/>
+                      description={"training project"}/>
 
                 <Work title={"Todolist"}
                       img={todo}
                       link={"http://FeraVerto.github.io/todo"}
-                      description={"Social networkSocial network Social networkSocial " +
-                      "networkSocial networkSocial networkSocial networkSocial network"}/>
+                      description={"classic todolist written with the material ui library"}/>
 
                 <Work title={"Cards + Packs"}
                       img={packs}
                       link={"https://FeraVerto.github.io/cards"}
-                      description={"https://FeraVerto.github.io/cards"}/>
+                      description={"MS DOS-style website for collectible cards "}/>
 
                 <Work title={"Counter"}
                       img={counter}
                       link={'https://feraverto.github.io/counter/'}
-                      description={"Social networkSocial network Social networkSocial " +
-                      "networkSocial networkSocial networkSocial networkSocial network"}/>
+                      description={"Counter with validation and start value setting"}/>
 
                 <Work title={"Counter"}
                       img={counter}
                       link={'https://feraverto.github.io/counter/'}
-                      description={"Social networkSocial network Social networkSocial " +
-                      "networkSocial networkSocial networkSocial networkSocial network"}/>
+                      description={"Counter with validation and start value setting"}/>
             </ul>
         </div>
     )
