@@ -1,7 +1,9 @@
 .exp {
+    margin-top: 30px;
     height: 100px;
     width: 100px;
     background-color: red;
+    position: relative;
 }
 
 .exp_block {
@@ -9,10 +11,53 @@
     width: 100px;
     background-color: green;
     z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
 }
 
 .exp_block:hover {
-    transform: translate(-15px, 15px);
+    transform: translate(-10px, -10px);
     transition: all 0.5s ease-in-out 0s;
+    box-shadow: -10px -10px 0 white;
 }
+
+/*exp*/
+/*<div className={s.exp2}>
+        <div className={s.exp_block2}>
+        </div>
+  </div>*/
+.exp2 {
+    margin-top: 30px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    position: relative;
+}
+
+.exp_block2:hover {
+    transform: translate(-5px, -5px);
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: -5px -5px 0 white;
+}
+
+.exp_block2:before {
+    content: " ";
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.exp_block2:hover:before {
+    transform: translate(-10px, -10px);
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: -10px -10px 0 white;
+}
+
 

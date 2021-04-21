@@ -17,7 +17,6 @@ function App() {
     return (
         <div className="App">
 
-            {/*<Exp/>*/}
             <header className={s.app_header}><Header/></header>
             <main className={s.main_wrapper}>
                 {/*<ReactPageScroller transitionTimingFunction={"cubic-bezier(0.42,0,1,1)"}

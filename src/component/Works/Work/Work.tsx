@@ -11,12 +11,17 @@ type WorkType = {
 export const Work: React.FC<WorkType> = ({title, description, link, img}) => {
     return (
         <li className={s.work}>
-            <div className={s.work_img}>
-                <img src={img} alt=""/>
-                <a href={link}>Смотреть</a>
+            <div className={s.work_background}>
+                <a href={link}>
+                    <div className={s.work_info_block}>
+                        <h3>{title}</h3>
+                        <p>{description}</p>
+                        <div className={s.work_img}>
+                            <img src={img} alt=""/>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <h3><a href={link}>{title}</a></h3>
-            <p>{description}</p>
         </li>
     )
 }
