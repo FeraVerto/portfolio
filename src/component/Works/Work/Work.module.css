@@ -1,22 +1,37 @@
 .work {
-
-    min-width: 500px;
+    margin-bottom: 45px;
+    width: 350px;
     display: inline-block;
 
-    background-color: cadetblue;
+    border: 2px solid red;
 }
 
 .work_img {
     width: 100%;
-    height: 300px;
+    height: 250px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    background: center url("#") no-repeat;
+    /*
+    background: center url('../../../image/Packs.png') no-repeat;
+    */
     background-size: cover;
 
-    outline: 2px solid green;
+    border: 2px solid green;
+    position: relative;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_img img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
 }
 
 .work_img a {
@@ -31,6 +46,7 @@
 
 .work h3,
 .work p{
+    width: 300px;
     background-color: orange;
 }
 
