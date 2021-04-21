@@ -1,21 +1,51 @@
 .skill_item {
     padding: 20px;
-    width: 300px;
+    width: 350px;
+    min-height: 250px;
 
     box-sizing: border-box;
-
-    background-color: bisque;
 }
+
 
 .skill_img {
     width: 50px;
     height: 50px;
 }
 
-.skill_item p,
-.skill_item h3 {
-    background-color: orange;
+.skill_background h3 {
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
 }
+
+.skill_item p {
+    font-size: 1rem;
+    line-height: 1.5;
+    min-height: 100px;
+}
+
+.skill_background {
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    position: relative;
+    color: #8e8e8e;
+}
+
+
+.skill_background:hover {
+    transform: translate(0, -15px);
+    transition: all 0.5s ease-in-out 0s;
+    background: #121212;
+    border: none;
+    background-image: -webkit-linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+    background-image: linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+    color: white;
+}
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

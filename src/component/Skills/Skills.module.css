@@ -1,12 +1,11 @@
 .skills {
-    padding: 100px 0;
+    padding: 80px 0;
     height: 100%;
-
-    background-color: cadetblue;
 }
 
 .skills h2 {
-    background-color: bisque;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
 }
 
 .skills_list {

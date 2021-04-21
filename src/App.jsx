@@ -17,11 +17,12 @@ function App() {
         <div className="App">
             <header className={s.app_header}><Header/></header>
             <main className={s.main_wrapper}>
-                <ReactPageScroller transitionTimingFunction={"cubic-bezier(0.42,0,1,1)"}
+                {/*<ReactPageScroller transitionTimingFunction={"cubic-bezier(0.42,0,1,1)"}
                                    animationTimer={1000}
                                    animationTimerBuffer={200}
                                    className={s.app_list}
-                                   renderAllPagesOnFirstRender={true}>
+                                   renderAllPagesOnFirstRender={true}
+                                   >*/}
 
                     <section className={`${s.app} ${s.app_aboutme}`}>
                         <div className="section-wrapper">
@@ -53,7 +54,7 @@ function App() {
                             <Footer/>
                         </div>
                     </section>
-                </ReactPageScroller>
+                {/*</ReactPageScroller>*/}
             </main>
 
         </div>

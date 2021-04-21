@@ -1,9 +1,9 @@
 .app {
-    height: 80vh;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    background-color: transparent;
 }
 
 .app_list {
@@ -13,15 +13,22 @@
     margin: 0 auto;
 
     width: 1200px;
-    height: 60px;
     position: fixed;
+
+    display: block;
+    position: fixed;
+
+    z-index: 999;
 }
 
-.app_aboutme {
-    margin-top: 20vh;
+.section-wrapper {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
 }
 
 .main_wrapper {
     margin: 0 auto;
+    /*display: flex;*/
     position: relative;
 }

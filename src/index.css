@@ -19,4 +19,10 @@ code {
     monospace;
 }
 
+h2 {
+    font-size: 3rem;
+    /*color: #6f6f6f;*/
+    color: white;
+}
+
 
