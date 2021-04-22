@@ -7,16 +7,16 @@ export const Menu = () => {
     return (
         <ul className={s.menu_list}>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/">Главная</NavLink>
+                <NavLink className={s.item_link} to="/">Home</NavLink>
             </li>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/skills">Скиллы</NavLink>
+                <NavLink className={s.item_link} to="/skills">Skills</NavLink>
             </li>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/works">Работы</NavLink>
+                <NavLink className={s.item_link} to="/works">Works</NavLink>
             </li>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/contacts">Контакты</NavLink>
+                <NavLink className={s.item_link} to="/contacts">Contacts</NavLink>
             </li>
         </ul>
     )

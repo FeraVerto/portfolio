@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Saira+Semi+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap');
 .about {
     padding: 0;
 
@@ -9,8 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /*background-color: bisque;*/
 }
 
 .about_block {
@@ -26,6 +32,8 @@
     color: white;
     text-align: left;
     font-size: 6rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .p_name {
@@ -41,7 +49,19 @@
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
+}
 
+.react_typing {
+    font-size: 50px;
+    font-weight: normal;
+    /*
+    font-family: 'Orbitron', sans-serif;
+    *//*
+    font-family: 'Saira Semi Condensed', sans-serif;*/
+    /*font-family: 'Geo', sans-serif;*/
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 3px;
+    font-style: italic;
 }
 
 
@@ -54,11 +74,11 @@
     text-shadow: #fff 1px 1px 0, #dd1e4b -1px -1px 0, #fff -1px 1px 0, #ffe 1px -1px 0;;
     */
 
-    /*font-size: 60px;
+    /*
+    font-size: 60px;
     color: #000;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #ffb, -1px 1px 0 #fff, 1px 1px 0 #ffe;
     */
-
 }
 
 .about_photo {

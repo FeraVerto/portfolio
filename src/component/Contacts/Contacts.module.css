@@ -2,16 +2,25 @@
     padding: 100px 0;
 
     height: 100%;
+    width: 100%;
 
-    background-color: bisque;
+    display: flex;
+    flex-direction: column;
 }
 
-.contacts h3 {
-    background-color: cadetblue;
+.contacts_container {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+
+.social_list {
+    display: flex;
 }
 
 .contacts_form {
-    margin: 0 auto;
     width: 50%;
 
     display: flex;
@@ -21,6 +30,20 @@
 .contacts_form button {
     margin: 45px auto 0 auto;
 }
+
+.contacts_form input,
+.contacts_form textarea {
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.contacts_form input::placeholder,
+.contacts_form textarea::placeholder {
+    color: #8e8e8e;
+}
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
