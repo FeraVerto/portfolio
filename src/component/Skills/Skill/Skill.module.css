@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 .skill_img {
     width: 100px;
     height: 100px;
@@ -24,6 +23,18 @@
     line-height: 1.5;
     min-height: 100px;
 }
+
+/*
+<div className={s.skill_background}>
+    <div className={s.skill_background2}>
+        <img className={s.skill_img} src={icon} width={100} height={100} alt=""/>
+        <h3>{title}</h3>
+        <p>
+            {description}
+        </p>
+    </div>
+</div>
+*/
 
 .skill_background {
     display: flex;
