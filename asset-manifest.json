@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a2c5edaa.chunk.css",
-    "main.js": "/portfolio/static/js/main.6aef5a6f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6aef5a6f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.4e084ee6.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4e084ee6.js.map",
-    "static/js/2.cf8021fe.chunk.js": "/portfolio/static/js/2.cf8021fe.chunk.js",
-    "static/js/2.cf8021fe.chunk.js.map": "/portfolio/static/js/2.cf8021fe.chunk.js.map",
-    "static/js/3.69f22521.chunk.js": "/portfolio/static/js/3.69f22521.chunk.js",
-    "static/js/3.69f22521.chunk.js.map": "/portfolio/static/js/3.69f22521.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f65a83a8.chunk.css",
+    "main.js": "/portfolio/static/js/main.ef07f7dd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ef07f7dd.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d88b44d2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d88b44d2.js.map",
+    "static/js/2.8eaf3517.chunk.js": "/portfolio/static/js/2.8eaf3517.chunk.js",
+    "static/js/2.8eaf3517.chunk.js.map": "/portfolio/static/js/2.8eaf3517.chunk.js.map",
+    "static/js/3.352d3896.chunk.js": "/portfolio/static/js/3.352d3896.chunk.js",
+    "static/js/3.352d3896.chunk.js.map": "/portfolio/static/js/3.352d3896.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.a2c5edaa.chunk.css.map": "/portfolio/static/css/main.a2c5edaa.chunk.css.map",
-    "static/js/2.cf8021fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cf8021fe.chunk.js.LICENSE.txt",
+    "static/css/main.f65a83a8.chunk.css.map": "/portfolio/static/css/main.f65a83a8.chunk.css.map",
+    "static/js/2.8eaf3517.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8eaf3517.chunk.js.LICENSE.txt",
     "static/media/Packs.fbc9e764.png": "/portfolio/static/media/Packs.fbc9e764.png",
     "static/media/api.ca21bfb2.svg": "/portfolio/static/media/api.ca21bfb2.svg",
     "static/media/atom-symbol.543688ff.svg": "/portfolio/static/media/atom-symbol.543688ff.svg",
@@ -28,9 +28,9 @@
     "static/media/ts.a71a67c3.svg": "/portfolio/static/media/ts.a71a67c3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e084ee6.js",
-    "static/js/2.cf8021fe.chunk.js",
-    "static/css/main.a2c5edaa.chunk.css",
-    "static/js/main.6aef5a6f.chunk.js"
+    "static/js/runtime-main.d88b44d2.js",
+    "static/js/2.8eaf3517.chunk.js",
+    "static/css/main.f65a83a8.chunk.css",
+    "static/js/main.ef07f7dd.chunk.js"
   ]
 }
