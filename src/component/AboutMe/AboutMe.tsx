@@ -15,17 +15,12 @@ export const AboutMe = () => {
                             text={["Hello.", "World!"]}
                         />*/}
 
-
-                    <p>
+                    <span className={s.typing_effect}>
                         <ReactTypingEffect
                             className={s.react_typing}
                             text={["All I need is code", "Code is all I need"]}
                             eraseDelay={1000}
                             eraseSpeed={20}
-                            /*speed={300}
-                            eraseSpeed={400}
-                            typingDelay={300}
-                            eraseDelay={400}*/
                             //@ts-ignore
                             cursorRenderer={(cursor: any) => <h1>{cursor}</h1>}
                             displayTextRenderer={(text: any, i: any) => {
@@ -44,7 +39,7 @@ export const AboutMe = () => {
                                 );
                             }}
                         />
-                    </p>
+                    </span>
                 </h1>
                 <div className={s.about_photo}>
                     <img src={photo} alt="photo" width={400} height={500}/>
