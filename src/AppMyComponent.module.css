@@ -5,19 +5,14 @@
     background-color: transparent;
 }
 
-.app_list {
+.app_header_desktop {
+    padding: 15px;
+    border: 2px solid white;
+    display: flex;
 }
 
-.app_header {
-    margin: 0 auto;
-
-    width: 1200px;
-    position: fixed;
-
-    display: block;
-    position: fixed;
-
-    z-index: 999;
+.app_header_mobile {
+    display: none;
 }
 
 .section-wrapper {
@@ -32,14 +27,18 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .app_header_desktop {
+        display: none;
+    }
 
-    .app_header {
-        position: relative;
-        margin: 0 auto;
+    .app_header_mobile {
+        display: block;
+    }
 
-        width: 100%;
-
-
+    .on_button {
+        position: absolute;
+        color: white;
+        z-index: 999999;
     }
 }
 

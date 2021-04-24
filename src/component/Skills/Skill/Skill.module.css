@@ -66,13 +66,14 @@
 
     .skill_item {
         padding: 0;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
 
         width: 100%;
         min-height: 200px;
 
         box-sizing: border-box;
     }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

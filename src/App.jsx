@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import './App.css'
 import s from "./AppMyComponent.module.css"
 import {Header} from "./component/Header/Header";
@@ -7,13 +7,26 @@ import {Skills} from "./component/Skills/Skills";
 import {Works} from "./component/Works/Works";
 import {Contacts} from "./component/Contacts/Contacts";
 
-import {Exp} from "./component/Experimental/Experimental";
+import {MobileMenu} from "./component/MobileComponent/MobileMenu/MobileMenu";
 
 function App() {
 
+    let [menu, setMenu] = useState(false)
+
+    let onClose = () => setMenu(false)
+
     return (
         <div className="App">
-            <header className={s.app_header}><Header/></header>
+            <header className={s.app_header_desktop}><Header/></header>
+            <header className={s.app_header_mobile}>
+                <div style={{position: "relative"}}>
+                    {
+                        menu
+                            ? <MobileMenu onClose={onClose}/>
+                            : <div className={s.on_button} onClick={() => setMenu(true)}>"X"</div>
+                    }
+                </div>
+            </header>
             <main className={s.main_wrapper}>
                 {/*<ReactPageScroller transitionTimingFunction={"cubic-bezier(0.42,0,1,1)"}
                                    animationTimer={1000}

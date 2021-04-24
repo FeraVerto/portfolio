@@ -23,4 +23,9 @@
     .works {
         padding: 30px 20px;
     }
+
+    .works_list {
+
+        flex-direction: column;
+    }
 }

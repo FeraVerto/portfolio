@@ -1,0 +1,9 @@
+.mobile_menu_container {
+    position: absolute;
+    color: white;
+    z-index: 99999;
+}
+
+.mobile_menu_container button {
+    color: white;
+}
