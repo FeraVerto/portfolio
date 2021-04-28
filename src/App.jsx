@@ -19,6 +19,15 @@ function App() {
 
     let onClose = () => setMenu(false)
 
+    //links.distance = c:60
+    //links.frequency:2
+
+    //links.distance = c:60
+    //links.frequency:2
+    //particles.speed: 0.4
+
+    //number.value: 130
+
     return (
         <div className="App">
 
@@ -286,8 +295,6 @@ function App() {
                                                "sync": false
                                            }
                                        },
-                                       //links.distance = c:60
-                                       //links.frequency:2
                                        "links": {
                                            "blink": false,
                                            "color": {
@@ -745,8 +752,7 @@ function App() {
                                                "sync": false
                                            }
                                        },
-                                       //links.distance = c:60
-                                       //links.frequency:2
+
                                        "links": {
                                            "blink": false,
                                            "color": {
@@ -771,7 +777,7 @@ function App() {
                                            "width": 1,
                                            "warp": false
                                        },
-                                       //speed: 0.4
+
                                        "move": {
                                            "angle": {
                                                "offset": 60,
@@ -826,7 +832,6 @@ function App() {
                                            "vibrate": false,
                                            "warp": false
                                        },
-                                       //value: 130
                                        "number": {
                                            "density": {
                                                "enable": false,
@@ -954,12 +959,6 @@ function App() {
                     />
 
                 </div>
-                {/*<ReactPageScroller transitionTimingFunction={"cubic-bezier(0.42,0,1,1)"}
-                                   animationTimer={1000}
-                                   animationTimerBuffer={200}
-                                   className={s.app_list}
-                                   renderAllPagesOnFirstRender={true}
-                                   >*/}
 
                 <section className={`${s.app} ${s.app_aboutme}`}>
                     <div className="section-wrapper">
@@ -982,8 +981,6 @@ function App() {
                         <Contacts/>
                     </div>
                 </section>
-
-                {/*</ReactPageScroller>*/}
             </main>
         </div>
     );
