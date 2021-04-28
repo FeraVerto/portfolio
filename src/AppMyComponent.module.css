@@ -7,11 +7,18 @@
 
 .app_header_desktop {
     padding: 15px;
-    border: 2px solid white;
     display: flex;
 }
 
+.app_particle_desktop {
+    display: block;
+}
+
 .app_header_mobile {
+    display: none;
+}
+
+.app_particle_mobile {
     display: none;
 }
 
@@ -20,8 +27,12 @@
 }
 
 .main_wrapper {
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     position: relative;
+}
+
+.particles {
+
 }
 
 
@@ -29,6 +40,14 @@
 @media only screen and (max-width: 600px) {
     .app_header_desktop {
         display: none;
+    }
+
+    .app_particle_desktop {
+        display: none;
+    }
+
+    .app_particle_mobile {
+        display: block;
     }
 
     .app_header_mobile {
