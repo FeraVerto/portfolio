@@ -1,22 +1,26 @@
 import React from 'react'
-import s from './Menu.module.css'
-import {NavLink} from "react-router-dom";
+import s from './Menu.module.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Menu = () => {
 
     return (
         <ul className={s.menu_list}>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/">Home</NavLink>
+                <Link className={s.item_link} to="/" duration={800} spy={true}
+                      smooth={true}>Home</Link>
             </li>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/skills">Skills</NavLink>
+                <Link className={s.item_link} to="skills" duration={800} spy={true}
+                      smooth={true}>Skills</Link>
             </li>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/works">Works</NavLink>
+                <Link className={s.item_link} to="works" duration={800} spy={true}
+                      smooth={true} >Works</Link>
             </li>
             <li className={s.menu_item}>
-                <NavLink className={s.item_link} to="/contacts">Contacts</NavLink>
+                <Link className={s.item_link} to="contacts" duration={800} spy={true}
+                      smooth={true}>Contacts</Link>
             </li>
         </ul>
     )

@@ -6,8 +6,13 @@
 }
 
 .app_header_desktop {
-    padding: 15px;
+    height: 60px;
     display: flex;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 99999;
 }
 
 .app_particle_desktop {
@@ -32,7 +37,7 @@
 }
 
 .particles {
-
+    width: 100%;
 }
 
 
@@ -62,29 +67,29 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .example {
-        background: green;
+@media only screen and (max-width: 600px) {
+    .app_particle_desktop {
+        display: none;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .example {
-        background: blue;
+@media only screen and (max-width: 768px) {
+    .app_particle_desktop {
+        display: none;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .example {
-        background: orange;
-    }
+  /*  .app_particle_desktop {
+        display: none;
+    }*/
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .example {
-        background: pink;
-    }
+    /*.app_particle_desktop {
+        display: none;
+    }*/
 }
