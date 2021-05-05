@@ -6,7 +6,9 @@ import {AboutMe} from "./component/AboutMe/AboutMe";
 import {Skills} from "./component/Skills/Skills";
 import {Works} from "./component/Works/Works";
 import {Contacts} from "./component/Contacts/Contacts";
-import svg from "./image/atom-symbol.svg"
+import svg from "./image/space.svg"
+import videoMP4 from "./image/space.mp4"
+import videoWEBM from "./image/space.webm"
 
 
 import {MobileMenu} from "./component/MobileComponent/MobileMenu/MobileMenu";
@@ -33,7 +35,18 @@ function App() {
 
     return (
         <div className="App">
-            <Particles/>
+            <div className={s.app_particle_desktop}>
+                <Particles/>
+            </div>
+
+            <div className={s.app_particle_mobile}>
+                <video loop muted autoPlay poster={svg} className={s.fullscreen_bg__video}>
+                    <source src={videoMP4} type="video/mp4"/>
+                    <source src={videoWEBM} type="video/webm"/>
+                </video>
+                {/*<video src={video} autoPlay={true}></video>*/}
+            </div>
+
             <header className={s.app_header_desktop}><Header/></header>
             <header className={s.app_header_mobile}>
                 <div style={{position: "relative"}}>
@@ -44,17 +57,15 @@ function App() {
                     }
                 </div>
             </header>
-                <section id="about-me" className={`${s.app} ${s.app_aboutme}`}>
-                    <div className="section-wrapper">
-                        <AboutMe/>
-                    </div>
-                </section>
+            <section id="about-me" className={`${s.app} ${s.app_aboutme}`}>
+                <div className="section-wrapper">
+                    <AboutMe/>
+                </div>
+            </section>
 
             <div className="App-container">
 
                 <main className={s.main_wrapper}>
-
-
 
                     <section id="skills" className={`${s.app} ${s.app_skills}`}>
                         <div className="section-wrapper">
@@ -75,7 +86,7 @@ function App() {
             </div>
         </div>
 
-    );
+);
 }
 
 export default App;

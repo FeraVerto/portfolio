@@ -24,7 +24,6 @@
     cursor: pointer;
     background: transparent;
     border: 0px;
-
 }
 
 .g_button_el {
@@ -38,11 +37,12 @@
     background:#dd1e4b;
 }
 
-.g_button_menu:hover {
+/*.g_button_menu:hover {
     transition-delay: 100ms;
     transform: scale(1.1);
-}
+}*/
 
+/*
 .g_button_menu:hover .g_button_el:nth-child(3):before {
     width: 2px;
     height: 2px;
@@ -62,6 +62,7 @@
     background:transparent;
 
 }
+*/
 
 .g_button_menu:focus {
     outline: 0px;
@@ -81,7 +82,7 @@
 
 .g_button_el:nth-child(3):before {
     opacity: 0;
-    animation: ball 1.5s linear infinite;
+    /*animation: ball 1.5s linear infinite;*/
     content: '';
     border: 2px solid #dd1e4b;
     display: block;
@@ -89,7 +90,7 @@
     top: 0.25px;
 }
 
-.g_button_menu:hover .g_button_el:nth-child(1) {
+/*.g_button_menu:hover .g_button_el:nth-child(1) {
     transform: rotate(-123deg);
 }
 
@@ -105,9 +106,9 @@
     opacity: 1;
     transition: opacity 600ms cubic-bezier(.61, .01, .42, 1);
 ;
-}
+}*/
 
-.g_button_menu:active:hover .g_button_el:nth-child(3):before,
+/*.g_button_menu:active:hover .g_button_el:nth-child(3):before,*/
 .g_button_menu:active .g_button_el:nth-child(3):before,
 .g_button_menu:active .g_button_el:nth-child(2) {
     opacity: 0;
