@@ -1,11 +1,22 @@
 .app {
+    height: 100vh;
+
     display: flex;
     align-items: center;
     justify-content: flex-start;
     background-color: transparent;
+
+}
+
+.app_aboutme {
+    margin: 0 auto;
+    padding: 0;
+    width: 50% ;
+    z-index: -100;
 }
 
 .app_header_desktop {
+    width: 100%;
     height: 60px;
     display: flex;
 
@@ -29,6 +40,7 @@
 
 .section-wrapper {
 
+    border: 2px solid red;
 }
 
 .main_wrapper {
@@ -81,10 +93,10 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  /*  .app_particle_desktop {
+@media only screen and (max-width: 992px) {
+    .app_particle_desktop {
         display: none;
-    }*/
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

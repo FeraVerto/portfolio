@@ -16,20 +16,21 @@
 
     height: 100vh;
 
-
-
+    position: relative;
 }
 
 .about_block {
-    width: 90%;
+    margin: 0 auto;
 
     display: flex;
     justify-content: center;
+
+    position: absolute;
+    top: 25%;
 }
 
 .about_h1 {
-    margin-top: 11%;
-    width: 70%;
+    margin: 0 auto;
     color: white;
 
     font-size: 6rem;
@@ -45,13 +46,12 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
 
-
-
     background-image: -webkit-linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
     background-image: linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .react_typing {
@@ -74,7 +74,7 @@
     color: #6f6f6f;
     background-image: none;
     text-transform: uppercase;
-    margin: 20px auto;
+    margin: 0 auto;
     /*
     text-shadow: #fff 1px 1px 0, #dd1e4b -1px -1px 0, #fff -1px 1px 0, #ffe 1px -1px 0;;
     */
@@ -95,11 +95,9 @@
 }
 
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     .about {
-        /*padding: 30px 20px;*/
         height: 100vh;
     }
 
@@ -108,10 +106,6 @@
         width: 100%;
 
         position: relative;
-    }
-
-    .about_info {
-        /*margin-bottom: 15px;*/
     }
 
     .about_photo {
@@ -141,8 +135,6 @@
     /*.typing_effect_desktop {
         display: none;
     }*/
-
-
     .react_typing div {
         display: none;
         transition: none;
@@ -160,20 +152,31 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    .about_h1 {
 
+    }
+
+    .p_name {
+        font-size: 4rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .example {
-        background: orange;
+@media only screen and (max-width: 992px) {
+    .about_h1 {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .p_name {
+        font-size: 4rem;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .example {
-        background: pink;
+    .p_name {
+        font-size: 6rem;
     }
 }

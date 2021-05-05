@@ -7,7 +7,7 @@ export const Menu = () => {
     return (
         <ul className={s.menu_list}>
             <li className={s.menu_item}>
-                <Link className={s.item_link} to="/" duration={800} spy={true}
+                <Link className={s.item_link} to="about-me" duration={800} spy={true}
                       smooth={true}>Home</Link>
             </li>
             <li className={s.menu_item}>
