@@ -4,7 +4,7 @@
     position: absolute;
     color: white;
     z-index: 99999;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.97);
 }
 
 .mobile_menu_container button {
@@ -12,8 +12,12 @@
 }
 
 .mobile_menu_position {
+    height: 100vh;
     position: relative;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mobile_menu_position button{
@@ -30,7 +34,20 @@
     list-style: none;
 }
 
+.mobile_menu_item {
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.mobile_menu_item:last-child {
+    margin-bottom: 0;
+}
+
 .mobile_menu_item .item_link {
+    text-transform: uppercase;
     text-decoration: none;
     color: #dd1e4b;
 }

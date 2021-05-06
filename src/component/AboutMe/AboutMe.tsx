@@ -1,8 +1,5 @@
 import React from 'react'
 import s from './AboutMe.module.css'
-import photo from './../../image/avatar.jpg'
-import ReactTypingEffect from 'react-typing-effect'
-import Particles from "react-particles-js";
 
 export const AboutMe = () => {
     return (

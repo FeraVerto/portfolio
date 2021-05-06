@@ -11,10 +11,8 @@ export const MobileMenu: React.FC<MobileMenuType> = ({onClose}) => {
     return (
         <div className={s.mobile_menu_container}>
             <div className={s.mobile_menu_position}>
-                <button onClick={onClose}>Close
-                </button>
+                <button onClick={onClose}>Close</button>
                 <ul className={s.mobile_menu_list}>
-
                     <li className={s.mobile_menu_item}>
                         <NavLink className={s.item_link} to="/">Home</NavLink>
                     </li>

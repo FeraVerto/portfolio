@@ -36,4 +36,8 @@
 
         list-style: none;
     }
+
+    .skills_list > div {
+        width: 100%;
+    }
 }
