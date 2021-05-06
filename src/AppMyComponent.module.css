@@ -84,8 +84,10 @@
 
     .app_header_mobile {
         display: block;
+        position: fixed;
         width: 100%;
         height: 75px;
+        z-index: 999999999;
     }
 
     .on_button {

@@ -35,7 +35,6 @@ function App() {
                     <source src={videoMP4} type="video/mp4"/>
                     <source src={videoWEBM} type="video/webm"/>
                 </video>
-                {/*<video src={video} autoPlay={true}></video>*/}
             </div>
 
             <header className={s.app_header_desktop}><Header/></header>

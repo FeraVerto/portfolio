@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './MobileMenu.module.css'
-import {NavLink} from "react-router-dom";
+import {Link} from "react-scroll/modules";
 
 type MobileMenuType = {
     onClose: () => void
@@ -14,22 +14,23 @@ export const MobileMenu: React.FC<MobileMenuType> = ({onClose}) => {
                 <button onClick={onClose}>Close</button>
                 <ul className={s.mobile_menu_list}>
                     <li className={s.mobile_menu_item}>
-                        <NavLink className={s.item_link} to="/">Home</NavLink>
+                        <Link  onClick={onClose} className={s.item_link} to="about-me" duration={800} spy={true}
+                              smooth={true}>Home</Link>
                     </li>
                     <li className={s.mobile_menu_item}>
-                        <NavLink className={s.item_link} to="/skills">Skills</NavLink>
+                        <Link  onClick={onClose} className={s.item_link} to="skills" duration={800} spy={true}
+                              smooth={true}>Skills</Link>
                     </li>
                     <li className={s.mobile_menu_item}>
-                        <NavLink className={s.item_link} to="/works">Works</NavLink>
+                        <Link onClick={onClose} className={s.item_link} to="works" duration={800} spy={true}
+                              smooth={true}>Works</Link>
                     </li>
                     <li className={s.mobile_menu_item}>
-                        <NavLink className={s.item_link} to="/contacts">Contacts</NavLink>
+                        <Link onClick={onClose} className={s.item_link} to="contacts" duration={800} spy={true}
+                              smooth={true}>Contacts</Link>
                     </li>
                 </ul>
             </div>
-
-
         </div>
-
     )
 }
