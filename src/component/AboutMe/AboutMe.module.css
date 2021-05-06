@@ -41,13 +41,14 @@
 .p_name {
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 6rem;
+    /*font-size: 6rem;*/
 
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
 
     background-image: -webkit-linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
     background-image: linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
@@ -57,11 +58,6 @@
 .react_typing {
     font-size: 50px;
     font-weight: normal;
-    /*
-    font-family: 'Orbitron', sans-serif;
-    *//*
-    font-family: 'Saira Semi Condensed', sans-serif;*/
-    /*font-family: 'Geo', sans-serif;*/
     font-family: 'Gothic A1', sans-serif;
     letter-spacing: 3px;
     font-style: italic;
@@ -75,20 +71,7 @@
     background-image: none;
     text-transform: uppercase;
     margin: 0 auto;
-    /*
-    text-shadow: #fff 1px 1px 0, #dd1e4b -1px -1px 0, #fff -1px 1px 0, #ffe 1px -1px 0;;
-    */
-
-    /*
-    font-size: 60px;
-    color: #000;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #ffb, -1px 1px 0 #fff, 1px 1px 0 #ffe;
-    */
 }
-
-/*.about_photo {
-    width: 400px;
-}*/
 
 .typing_effect_desktop {
     height: 150px;
@@ -120,9 +103,11 @@
     }
 
     .p_name {
-        font-size: 3rem;
+        font-size: 3.5rem;
+    }
 
-        text-align: center;
+    .p_hi {
+        font-size: 1.5rem;
     }
 
     .about_h1 {
@@ -130,6 +115,8 @@
         width: 100%;
         position: relative;
         align-items: center;
+
+        font-size: 0;
     }
 
     /*.typing_effect_desktop {
@@ -154,12 +141,12 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     .about_h1 {
-
+        font-size: 0;
     }
 
-    .p_name {
-        font-size: 4rem;
-    }
+    /*.p_name {
+        font-size: 3rem;
+    }*/
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -168,15 +155,19 @@
         padding: 10px;
         width: 100%;
     }
+/*
+    .about_h1 {
+        font-size: 0;
+    }*/
 
-    .p_name {
-        font-size: 4rem;
-    }
+   /* .p_name {
+        font-size: 3rem;
+    }*/
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .p_name {
-        font-size: 6rem;
+        /*font-size: 6rem;*/
     }
 }

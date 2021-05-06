@@ -67,7 +67,7 @@ const config = {
 }
 
 export let Particles = () =>  {
-    return <div style={{ height: "100vh", width: "100%", position: "fixed", outline: "0px solid black"}}>
+    return <div onFocus={false} style={{ height: "100vh", width: "100%", position: "fixed"}}>
         <ParticleField config={config} className={s.particles}/>
     </div>
 }

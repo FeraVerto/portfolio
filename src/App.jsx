@@ -24,15 +24,6 @@ function App() {
 
     let onClose = () => setMenu(false)
 
-    //links.distance = c:60
-    //links.frequency:2
-
-    //links.distance = c:60
-    //links.frequency:2
-    //particles.speed: 0.4
-
-    //number.value: 130
-
     return (
         <div className="App">
             <div className={s.app_particle_desktop}>
@@ -86,7 +77,7 @@ function App() {
             </div>
         </div>
 
-);
+    );
 }
 
 export default App;

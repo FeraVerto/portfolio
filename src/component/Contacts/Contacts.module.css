@@ -127,7 +127,6 @@
 @media only screen and (max-width: 600px) {
     .contacts {
         padding: 30px 20px;
-        outline: 2px solid green;
     }
 
     .contacts_form {
