@@ -1,6 +1,7 @@
 import React from 'react'
 import s from "./Contacts.module.css"
 import {useFormik} from "formik";
+import {SocialIcon} from "./socialIcon/sociallcon";
 
 export const Contacts = () => {
 
@@ -21,6 +22,11 @@ export const Contacts = () => {
             <div className={s.contacts_container}>
                 <div className={s.contacts_block}>
                     <h3 className={s.h3}>Get in Touch</h3>
+
+                    <div className={s.contacts_mobile}>
+                        <SocialIcon/>
+                    </div>
+
                     <ul className={s.contact_list}>
                         <li className={s.contact_item}>
                             <span>

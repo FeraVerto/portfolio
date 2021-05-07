@@ -1,18 +1,24 @@
 .app {
-    height: 100vh;
+    height: 100%;
 
     display: flex;
     align-items: center;
     justify-content: flex-start;
     background-color: transparent;
-
 }
 
 .app_aboutme {
     margin: 0 auto;
     padding: 0;
-    width: 50%;
+    /*width: 50%;*/
     z-index: -100;
+
+
+}
+
+/*Исправить*/
+.app_aboutme > div {
+    max-width: 1000px;
 }
 
 .app_header_desktop {
@@ -38,6 +44,10 @@
     display: none;
 }
 
+.app_particle_pad {
+    display: none;
+}
+
 .section-wrapper {
 }
 
@@ -50,8 +60,137 @@
     width: 100%;
 }
 
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
 
-/* Extra small devices (phones, 600px and down) */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+    .app {
+        height: 100%;
+        width: 100%;
+    }
+
+    .app_header_desktop {
+        display: none;
+    }
+
+    .app_particle_desktop {
+        display: none;
+    }
+
+    .app_particle_pad {
+        display: none;
+    }
+
+    .app_particle_pad video {
+        display: none;
+    }
+
+    .app_particle_desktop img {
+        width: 100%;
+    }
+
+    .app_particle_mobile {
+        display: block;
+        z-index: -999999999;
+    }
+
+    .app_particle_mobile img {
+        position: fixed;
+    }
+
+    .app_header_mobile {
+        display: block;
+        position: fixed;
+
+        width: 100%;
+
+        z-index: 999999999;
+    }
+
+    .on_button {
+        position: fixed;
+        color: white;
+        z-index: 999999;
+    }
+
+    .app_aboutme {
+        height: 100vh;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .app_particle_desktop {
+        display: none;
+    }
+
+    .app {
+        width: 100%;
+    }
+
+    .app_aboutme {
+        width: 100%;
+    }
+
+    .app_particle_pad {
+        display: none;
+    }
+
+    .main_wrapper {
+        margin: 0 15px;
+    }
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .app {
+        height: 100%;
+    }
+
+    .app_aboutme {
+        height: 100vh;
+    }
+
+    .app_particle_desktop {
+        display: none;
+    }
+
+    .app_particle_pad {
+        display: block;
+        position: fixed;
+        width: 100%;
+    }
+
+    .app_particle_pad video {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1062px) {
+    .app_works {
+        padding: 0 20px;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*!* Large Devices, Wide Screens *!
+@media only screen and (min-width : 1200px) {
+
+}
+
+!* Extra small devices (phones, 600px and down) *!
 @media only screen and (max-width: 600px) {
     .app {
         height: 100%;
@@ -66,25 +205,29 @@
         display: none;
     }
 
+    .app_particle_pad {
+        display: none;
+    }
+
     .app_particle_desktop img {
         width: 100%;
     }
 
     .app_particle_mobile {
         display: block;
-        position: fixed;
-        height: 100%;
-        box-sizing: border-box;
+        z-index: -999999999;
+
+        border: 2px solid red;
     }
 
-    .fullscreen_bg__video {
-        /*width: 100%;*/
-        height: 100vh;
+    .app_particle_mobile img {
+        position: fixed;
     }
 
     .app_header_mobile {
         display: block;
-        position: fixed;
+        position: relative;
+
         width: 100%;
         height: 75px;
         z-index: 999999999;
@@ -99,36 +242,37 @@
     .app_aboutme {
         height: 100vh;
     }
-
-
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-    .app_particle_desktop {
-        display: none;
-    }
 
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
+!* Medium devices (landscape tablets, 768px and up) *!
 @media only screen and (max-width: 768px) {
-    .app_particle_desktop {
+    !*.app_particle_desktop {
         display: none;
     }
+
+    .app {
+        width: 100%;
+    }
+
+    .app_aboutme {
+        width: 100%;
+    }
+
+    .app_particle_pad {
+        display: none;
+    }*!
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+!* Large devices (laptops/desktops, 992px and up) *!
 @media only screen and (max-width: 992px) {
-    .app_particle_desktop {
-        display: none;
-    }
+
+
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+!* Extra large devices (large laptops and desktops, 1200px and up) *!
 @media only screen and (min-width: 1200px) {
-    /*.app_particle_desktop {
+    !*.app_particle_desktop {
         display: none;
-    }*/
-}
+    }*!
+}*/

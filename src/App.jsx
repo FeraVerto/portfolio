@@ -9,6 +9,10 @@ import {Contacts} from "./component/Contacts/Contacts";
 import svg from "./image/space.svg"
 import videoMP4 from "./image/space.mp4"
 import videoWEBM from "./image/space.webm"
+import background from "./image/space-planets.jpg"
+
+/*import videoMP4 from "./image/Nebula Blue - 49252.mp4"*/
+/*import videoWEBM from "./image/space.webm"*/
 
 
 import {MobileMenu} from "./component/MobileComponent/MobileMenu/MobileMenu";
@@ -30,11 +34,15 @@ function App() {
                 <Particles/>
             </div>
 
-            <div className={s.app_particle_mobile}>
+            <div className={s.app_particle_pad}>
                 <video loop muted autoPlay poster={svg} className={s.fullscreen_bg__video}>
                     <source src={videoMP4} type="video/mp4"/>
                     <source src={videoWEBM} type="video/webm"/>
                 </video>
+            </div>
+
+            <div className={`${s.app_particle_mobile}`}>
+                <img src={background} alt="background"/>
             </div>
 
             <header className={s.app_header_desktop}><Header/></header>

@@ -22,7 +22,7 @@ export const Works = () => {
                     <Work title={"Social network"}
                           img={socialN}
                           link={"https://feraverto.github.io/network-learning-project-typescript"}
-                          description={"training project"}/>
+                          description={"training project training project training project training project"}/>
 
                     <Work title={"Todolist"}
                           img={todo}

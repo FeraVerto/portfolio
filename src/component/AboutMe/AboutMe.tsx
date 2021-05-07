@@ -9,8 +9,6 @@ export const AboutMe = () => {
                     <p className={s.p_hi}>I'm</p>
                     <p className={s.p_name}> Mariya Klevakina</p>
                     <p className={s.p_hi}>front-end developer.</p>
-                    <span className={s.typing_effect_desktop}>
-                    </span>
                 </h1>
             </div>
         </div>

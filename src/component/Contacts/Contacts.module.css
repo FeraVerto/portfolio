@@ -4,8 +4,8 @@
     color: white;
 }
 
-.contacts_position {
-
+.contacts_mobile {
+    display: none;
 }
 
 .h3 {
@@ -150,12 +150,26 @@
     .contact_item:last-child {
         margin-bottom: 0;
     }
+
+    .contacts_mobile {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .contacts_mobile li img{
+        width: 70px;
+        height: 70px;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .example {
-        background: blue;
+@media only screen and (max-width: 768px) {
+    .contacts_form {
+        width: 100%;
+    }
+
+    .contacts_block {
+        width: 100%;
     }
 }
 
