@@ -11,15 +11,9 @@ import videoMP4 from "./image/space.mp4"
 import videoWEBM from "./image/space.webm"
 import background from "./image/space-planets.jpg"
 
-/*import videoMP4 from "./image/Nebula Blue - 49252.mp4"*/
-/*import videoWEBM from "./image/space.webm"*/
-
-
 import {MobileMenu} from "./component/MobileComponent/MobileMenu/MobileMenu";
 import {ButtonMenu} from "./component/MobileComponent/ButtonMenu/ButtonMenu";
 import {Particles} from "./particles/particles";
-
-/*import Particles from "react-particles-js";*/
 
 
 function App() {
@@ -30,6 +24,7 @@ function App() {
 
     return (
         <div className="App">
+
             <div className={s.app_particle_desktop}>
                 <Particles/>
             </div>
