@@ -21,11 +21,11 @@
 
 @media only screen and (max-width: 600px) {
     .works {
-        padding: 30px 20px;
+        padding: 30px 0;
     }
 
     .works_list {
-
+        width: 100%;
         flex-direction: column;
     }
 }

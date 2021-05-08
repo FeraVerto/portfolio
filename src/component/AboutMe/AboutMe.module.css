@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
-/*
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Saira+Semi+Condensed:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sarpanch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
-*/
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap');
 
 .about {
@@ -26,7 +17,7 @@
     justify-content: center;
 
     position: absolute;
-    top: 25%
+    top: 25%;
 }
 
 .about_h1 {
@@ -55,16 +46,6 @@
     text-align: center;
 }
 
-/*.react_typing {
-    font-size: 50px;
-    font-weight: normal;
-    font-family: 'Gothic A1', sans-serif;
-    letter-spacing: 3px;
-    font-style: italic;
-    height: 300px;
-}*/
-
-
 .p_hi {
     font-size: 2rem;
     color: #6f6f6f;
@@ -87,7 +68,6 @@
     .about_block {
         margin: 0;
         width: 100%;
-
         position: relative;
     }
 
@@ -100,35 +80,19 @@
     }
 
     .about_h1 {
-        padding: 10px;
+        padding: 0 10px;
         width: 100%;
-        position: relative;
+
         align-items: center;
 
         font-size: 0;
     }
 
-   /* .react_typing div {
-        display: none;
-        transition: none;
-    }
-
-    .react_typing h1 {
-        display: none;
-        transition: none;
-    }
-
-    .react_typing span {
-        display: none;
-        transition: none;
-    }*/
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .about_h1 {
-        font-size: 0;
-    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -136,14 +100,6 @@
     .about_h1 {
         padding: 10px;
         width: 100%;
-    }
-/*
-    .about_h1 {
-        font-size: 0;
-    }*/
-
-    .p_name {
-       /* font-size: 3rem;*/
     }
 
     .about {
@@ -153,7 +109,5 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .p_name {
-        /*font-size: 6rem;*/
-    }
+
 }

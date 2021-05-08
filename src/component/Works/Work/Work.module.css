@@ -1,12 +1,14 @@
 .work {
+    margin-right: 10px;
     display: flex;
     position: relative;
+    width: 350px;
 }
 
 .work_background {
     padding: 15px;
     margin-bottom: 45px;
-    width: 330px;
+    width: 100%;
 
     display: block;
 
@@ -122,11 +124,18 @@
         width: 100%;
     }
 
-    .work_background {
-
+    .work div {
         width: 100%;
-
     }
+
+    .work li {
+        width: 100%;
+    }
+
+    .work_background {
+        width: 100%;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -134,6 +143,8 @@
     .example {
         background: green;
     }
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -141,24 +152,22 @@
     .example {
         background: blue;
     }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .example {
-
+    .work {
+        margin-right: 15px;
     }
 }
 
 @media only screen and (max-width: 1062px) {
-    .work_background {
-        width: 330px;
-    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .example {
-        background: pink;
-    }
+
 }

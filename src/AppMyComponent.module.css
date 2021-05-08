@@ -10,10 +10,7 @@
 .app_aboutme {
     margin: 0 auto;
     padding: 0;
-    /*width: 50%;*/
     z-index: -100;
-
-
 }
 
 /*Исправить*/
@@ -58,11 +55,6 @@
 
 .particles {
     width: 100%;
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
 }
 
 /* Extra Small Devices, Phones */
@@ -119,6 +111,14 @@
     .app_aboutme {
         height: 100vh;
     }
+
+    .main_wrapper {
+        margin: 0;
+    }
+
+    .app_works {
+        padding: 0;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -142,8 +142,6 @@
     .main_wrapper {
         margin: 0 15px;
     }
-
-
 
 }
 
@@ -175,7 +173,7 @@
 
 @media only screen and (max-width: 1062px) {
     .app_works {
-        padding: 0 20px;
+        padding: 0;
     }
 }
 
@@ -184,95 +182,3 @@
 @media only screen and (min-width : 1200px) {
 
 }
-
-/*!* Large Devices, Wide Screens *!
-@media only screen and (min-width : 1200px) {
-
-}
-
-!* Extra small devices (phones, 600px and down) *!
-@media only screen and (max-width: 600px) {
-    .app {
-        height: 100%;
-        width: 100%;
-    }
-
-    .app_header_desktop {
-        display: none;
-    }
-
-    .app_particle_desktop {
-        display: none;
-    }
-
-    .app_particle_pad {
-        display: none;
-    }
-
-    .app_particle_desktop img {
-        width: 100%;
-    }
-
-    .app_particle_mobile {
-        display: block;
-        z-index: -999999999;
-
-        border: 2px solid red;
-    }
-
-    .app_particle_mobile img {
-        position: fixed;
-    }
-
-    .app_header_mobile {
-        display: block;
-        position: relative;
-
-        width: 100%;
-        height: 75px;
-        z-index: 999999999;
-    }
-
-    .on_button {
-        position: absolute;
-        color: white;
-        z-index: 999999;
-    }
-
-    .app_aboutme {
-        height: 100vh;
-    }
-}
-
-
-!* Medium devices (landscape tablets, 768px and up) *!
-@media only screen and (max-width: 768px) {
-    !*.app_particle_desktop {
-        display: none;
-    }
-
-    .app {
-        width: 100%;
-    }
-
-    .app_aboutme {
-        width: 100%;
-    }
-
-    .app_particle_pad {
-        display: none;
-    }*!
-}
-
-!* Large devices (laptops/desktops, 992px and up) *!
-@media only screen and (max-width: 992px) {
-
-
-}
-
-!* Extra large devices (large laptops and desktops, 1200px and up) *!
-@media only screen and (min-width: 1200px) {
-    !*.app_particle_desktop {
-        display: none;
-    }*!
-}*/

@@ -17,7 +17,7 @@ export const Work: React.FC<WorkType> = ({title, description, link, img}) => {
                         <h3>{title}</h3>
                         <p>{description}</p>
                         <div className={s.work_img}>
-                            <img src={img} alt=""/>
+                            <img src={img} alt="work"/>
                         </div>
                     </div>
                 </a>

@@ -78,8 +78,11 @@ button {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .close_button_mobile_menu {
+
         color: white;
     }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
