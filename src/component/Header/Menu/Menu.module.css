@@ -23,6 +23,11 @@
     text-transform: uppercase;
 }
 
+.item_link:hover {
+    color:  #E0040B;
+
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     .menu_list {

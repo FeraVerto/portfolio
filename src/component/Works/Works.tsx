@@ -6,6 +6,7 @@ import counter from "./../../image/counter.png"
 import socialN from "./../../image/socialN.png"
 import homeworks from "./../../image/homeworks.png"
 import todo from "./../../image/todo.png"
+import inProgress from "./../../image/projectInProgress.jpg"
 import {Zoom} from "react-awesome-reveal";
 
 export const Works = () => {
@@ -39,10 +40,10 @@ export const Works = () => {
                           link={'https://feraverto.github.io/counter/'}
                           description={"Counter with validation and start value setting"}/>
 
-                    <Work title={"Counter"}
-                          img={counter}
-                          link={'https://feraverto.github.io/counter/'}
-                          description={"Counter with validation and start value setting"}/>
+                    <Work title={"Project in progress... "}
+                          img={inProgress}
+                          link={''}
+                          description={"Project in progress... Maybe this is your project"}/>
                 </ul>
             </Zoom>
         </div>

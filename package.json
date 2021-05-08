@@ -12,6 +12,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.6",
     "@types/react-scroll": "^1.8.2",
+    "emailjs-com": "^2.6.4",
     "formik": "^2.2.6",
     "react": "^17.0.1",
     "react-awesome-reveal": "^3.7.1",
