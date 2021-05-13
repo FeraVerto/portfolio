@@ -1,4 +1,4 @@
-import s from ".//sociallcon.module.css";
+import s from "./sociallcon.module.css";
 import github from "../../../image/github.svg";
 import telegram from "../../../image/telegram.svg";
 import linkedin from "../../../image/linkedin.svg";

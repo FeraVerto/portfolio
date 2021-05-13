@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import './App.css'
+
 import s from "./AppMyComponent.module.css"
 import {Header} from "./component/Header/Header";
 import {AboutMe} from "./component/AboutMe/AboutMe";
@@ -23,7 +23,7 @@ function App() {
     let onClose = () => setMenu(false)
 
     return (
-        <div className="App">
+        <div className={s.app}>
 
             <div className={s.app_particle_desktop}>
                 <Particles/>
@@ -36,7 +36,7 @@ function App() {
                 </video>
             </div>
 
-            <div className={`${s.app_particle_mobile}`}>
+            <div className={s.app_particle_mobile}>
                 <img src={background} alt="background"/>
             </div>
 
@@ -50,8 +50,9 @@ function App() {
                     }
                 </div>
             </header>
-            <section id="about-me" className={`${s.app} ${s.app_aboutme}`}>
-                <div className="section-wrapper">
+
+            <section id="about-me" className={`${s.section} ${s.app_aboutme}`}>
+                <div className={s.section_wrapper}>
                     <AboutMe/>
                 </div>
             </section>
@@ -59,23 +60,23 @@ function App() {
             <div className="App-container">
 
                 <main className={s.main_wrapper}>
-
-                    <section id="skills" className={`${s.app} ${s.app_skills}`}>
-                        <div className="section-wrapper">
+                    <section id="skills" className={`${s.section} ${s.app_skills}`}>
+                        <div className={s.section_wrapper}>
                             <Skills/>
                         </div>
                     </section>
-                    <section id="works" className={`${s.app} ${s.app_works}`}>
-                        <div className="section-wrapper">
+                    <section id="works" className={`${s.section} ${s.app_works}`}>
+                        <div className={s.section_wrapper}>
                             <Works/>
                         </div>
                     </section>
-                    <section id="contacts" className={`${s.app} ${s.app_contacts}`}>
-                        <div className="section-wrapper">
+                    <section id="contacts" className={`${s.section} ${s.app_contacts}`}>
+                        <div className={s.section_wrapper}>
                             <Contacts/>
                         </div>
                     </section>
                 </main>
+
             </div>
         </div>
 

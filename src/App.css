@@ -1,6 +1,3 @@
-.App {
-position: relative;
-}
 
 .App-container {
     margin: 0 auto;
@@ -12,12 +9,7 @@ position: relative;
     position: relative;
 }
 
-.section-wrapper {
-    margin: 0 auto;
 
-    width: 100%;
-    position: relative;
-}
 
 .App-logo {
     height: 40vmin;
@@ -28,7 +20,10 @@ h2 {
     margin: 0 0 30px 0;
     padding: 0;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
 }
+
 
 h3 {
     margin: 0 0 20px 0;
@@ -37,11 +32,34 @@ h3 {
 }
 
 button {
-    width: 150px;
-    height: 40px;
-    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+
+    font-weight: bold;
+
     background-color: transparent;
     text-transform: uppercase;
+    font-size: 20px;
+
+    border: 2px solid black;
+}
+
+input, textarea {
+    padding: 5px;
+    margin-right: 20px;
+
+    width: 100%;
+
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+    outline: none;
+    color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #8e8e8e;
 }
 
 
@@ -75,40 +93,4 @@ button {
     }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .close_button_mobile_menu {
 
-        color: white;
-    }
-
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .example {
-        background: green;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .example {
-        background: blue;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .example {
-        background: orange;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .example {
-        background: pink;
-    }
-}

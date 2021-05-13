@@ -1,12 +1,12 @@
 .social_list {
     margin: 0;
     padding: 0;
+
     min-width: 150px;
+
     color: white;
     display: flex;
     justify-content: space-between;
-    /*align-items: flex-end;
-    justify-content: space-evenly;*/
     list-style: none;
 }
 

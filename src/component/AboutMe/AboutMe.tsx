@@ -4,11 +4,11 @@ import s from './AboutMe.module.css'
 export const AboutMe = () => {
     return (
         <div className={s.about}>
-            <div className={s.about_block}>
+            <div className={s.about_container}>
                 <h1 className={s.about_h1}>
-                    <p className={s.p_hi}>I'm</p>
-                    <p className={s.p_name}> Mariya Klevakina</p>
-                    <p className={s.p_hi}>front-end developer.</p>
+                    <span className={s.about_h1_part}>I'm</span>
+                    <span className={s.p_name}> Mariya Klevakina</span>
+                    <span className={s.about_h1_part}>front-end developer.</span>
                 </h1>
             </div>
         </div>

@@ -13,7 +13,7 @@ export const Skills = () => {
     return (
 
         <div className={s.skills}>
-            <h2 className={s.h2}>My skills</h2>
+            <h2>My skills</h2>
 
             <ul className={s.skills_list}>
                 <Slide direction={"left"}>

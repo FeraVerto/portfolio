@@ -1,4 +1,16 @@
 .app {
+    position: relative;
+}
+
+.section_wrapper {
+    margin: 0 auto;
+
+    width: 100%;
+
+    position: relative;
+}
+
+.section {
     height: 100%;
 
     display: flex;
@@ -10,10 +22,10 @@
 .app_aboutme {
     margin: 0 auto;
     padding: 0;
+
     z-index: -100;
 }
 
-/*Исправить*/
 .app_aboutme > div {
     max-width: 1000px;
 }
@@ -21,6 +33,7 @@
 .app_header_desktop {
     width: 100%;
     height: 60px;
+
     display: flex;
 
     position: fixed;
@@ -59,10 +72,6 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 600px) {
-    .app {
-        height: 100%;
-        width: 100%;
-    }
 
     .app_header_desktop {
         display: none;
@@ -86,7 +95,7 @@
 
     .app_particle_mobile {
         display: block;
-        z-index: -999999999;
+        z-index: -999999;
     }
 
     .app_particle_mobile img {
@@ -94,10 +103,10 @@
     }
 
     .app_header_mobile {
+        width: 100%;
+
         display: block;
         position: fixed;
-
-        width: 100%;
 
         z-index: 999999999;
     }
@@ -127,13 +136,9 @@
         display: none;
     }
 
-    .app {
+    /*.app_aboutme {
         width: 100%;
-    }
-
-    .app_aboutme {
-        width: 100%;
-    }
+    }*/
 
     .app_particle_pad {
         display: none;
@@ -147,9 +152,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    .app {
+    /*.app {
         height: 100%;
-    }
+    }*/
 
     .app_aboutme {
         height: 100vh;
@@ -160,9 +165,10 @@
     }
 
     .app_particle_pad {
+        width: 100%;
+
         display: block;
         position: fixed;
-        width: 100%;
     }
 
     .app_particle_pad video {
@@ -175,10 +181,8 @@
     .app_works {
         padding: 0;
     }
-}
 
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+    .main_wrapper {
+        margin-bottom: 60px;
+    }
 }

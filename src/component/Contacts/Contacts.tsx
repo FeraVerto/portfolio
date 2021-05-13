@@ -31,8 +31,8 @@ export const Contacts = () => {
 
             <h2>Contacts</h2>
             <div className={s.contacts_container}>
-                <div className={s.contacts_block}>
-                    <h3 className={s.h3}>Get in Touch</h3>
+                <div className={s.contacts_width}>
+                    <h3>Get in Touch</h3>
 
                     <div className={s.contacts_mobile}>
                         <SocialIcon/>

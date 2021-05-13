@@ -1,7 +1,9 @@
 .mobile_menu_container {
     width: 100%;
     height: 100vh;
+
     position: absolute;
+
     color: white;
     z-index: 99999;
     background-color: rgba(0, 0, 0, 0.97);
@@ -10,6 +12,7 @@
 
 .mobile_menu_position {
     height: 100vh;
+
     position: relative;
 
     display: flex;
@@ -27,6 +30,7 @@
 .mobile_menu_item {
     margin-bottom: 25px;
     width: 100%;
+
     text-align: center;
     font-size: 2.7rem;
     font-weight: bold;
@@ -43,42 +47,37 @@
 }
 
 .button_close {
-
     width: 40px;
+
     position: absolute;
     top: 10px;
     right: 10px;
+
     display: flex;
 
     color: white;
 }
 
-.button_close:before {
-    content: "";
-
-}
-
 .button_el {
     height: 0px;
-    border: 1.5px solid #dd1e4b;
-
     width: 42px;
+
     display: block;
     position: absolute;
     top: 20px;
     right: 5px;
 
+    background: #dd1e4b;
+    border: 1.5px solid #dd1e4b;
+
     transition: all 300ms cubic-bezier(.61, .01, .42, 1);
-    background:#dd1e4b;
 }
 
 .button_el:nth-child(1) {
-
     transform: rotate(45deg);
 }
 
 .button_el:nth-child(2) {
-
     transform: rotate(-45deg);
 }
 
