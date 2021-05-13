@@ -1,23 +1,34 @@
-import React from 'react'
+import React, {useState} from 'react'
 import s from "./Contacts.module.css"
-import {useFormik} from "formik";
 import {SocialIcon} from "./socialIcon/sociallcon";
+import emailjs from 'emailjs-com';
 
 export const Contacts = () => {
 
-    const formik = useFormik({
-        initialValues: {
-            name: '',
-            email: '',
-            message: ''
-        },
-        onSubmit: values => {
-            console.log("values", values)
-        },
-    });
+    const [name, setName] = useState<string>('')
+    const [email, setEmail] = useState<string>('')
+    const [message, setMessage] = useState('')
+    const [messageSuccess, setMessageSuccess] = useState<string>('')
+    const [messageSend, setMessageSend] = useState<boolean>(false)
+
+    function sendEmail(e: any) {
+        e.preventDefault();
+        setMessageSend(true)
+        emailjs.sendForm('my_gmail', 'template_6n7yx7c', e.target, 'user_8vLqnU8YPNZSCB5TMid6X')
+            .then((result) => {
+                setName('')
+                setEmail('')
+                setMessage('')
+                setMessageSend(false)
+                setMessageSuccess('email sent!')
+            }, (error) => {
+                setMessageSuccess(error.text)
+            });
+    }
 
     return (
         <div className={s.contacts}>
+
             <h2>Contacts</h2>
             <div className={s.contacts_container}>
                 <div className={s.contacts_block}>
@@ -53,27 +64,31 @@ export const Contacts = () => {
 
                 </div>
 
-                <form onSubmit={formik.handleSubmit} className={s.contacts_form}>
+                <form onSubmit={sendEmail} className={s.contacts_form}>
 
                     <div className={s.contacts_form_data}>
-                        <input id={"name"}
+                        <input value={name}
+                               name="name"
+                               onChange={(e) => setName(e.target.value)}
                                placeholder={"Your name *"}
                                type="text"
-                               {...formik.getFieldProps('name')}
                         />
-                        <input id={"email"}
+                        <input value={email}
+                               name="email"
+                               onChange={(e) => setEmail(e.target.value)}
                                placeholder={"Your email *"}
-                               type="text"
-                               {...formik.getFieldProps('email')}/>
+                               type="email"/>
                     </div>
 
-                    <textarea id={"message"}
+                    <textarea value={message}
+                              name="message"
+                              onChange={(e) => setMessage(e.target.value)}
                               placeholder={"Your message"}
-                              rows={6}
-                              {...formik.getFieldProps('message')}>
+                              rows={6}>
                     </textarea>
-
-                    <button type="submit">Отправить</button>
+                    {messageSend && <div className={s.contacts_form_loader}>Loading...</div>}
+                    {messageSuccess}
+                    <button type="submit" value="Send" disabled={messageSend}>Send</button>
                 </form>
             </div>
         </div>
