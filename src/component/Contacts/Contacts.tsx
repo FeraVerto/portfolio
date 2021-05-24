@@ -65,7 +65,7 @@ export const Contacts = () => {
                 </div>
 
                 <form onSubmit={sendEmail} className={s.contacts_form}>
-
+                    <h3>Or send me message</h3>
                     <div className={s.contacts_form_data}>
                         <input value={name}
                                name="name"
