@@ -23,7 +23,7 @@ export const Works = () => {
                     <Work title={"Social network"}
                           img={socialN}
                           link={"https://feraverto.github.io/network-learning-project-typescript"}
-                          description={"training project training project training project training project"}/>
+                          description={"project on class component and typescript"}/>
 
                     <Work title={"Todolist"}
                           img={todo}
@@ -33,14 +33,14 @@ export const Works = () => {
                     <Work title={"Cards + Packs"}
                           img={packs}
                           link={"https://FeraVerto.github.io/cards"}
-                          description={"MS DOS-style website for collectible cards "}/>
+                          description={"MS DOS-style website for collectible cards"}/>
 
                     <Work title={"Counter"}
                           img={counter}
                           link={'https://feraverto.github.io/counter/'}
                           description={"Counter with validation and start value setting"}/>
 
-                    <Work title={"Project in progress... "}
+                    <Work title={"Project in progress..."}
                           img={inProgress}
                           link={''}
                           description={"Project in progress... Maybe this is your project"}/>
