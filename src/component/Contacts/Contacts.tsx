@@ -55,7 +55,7 @@ export const Contacts = () => {
                         </li>
                         <li className={s.contact_item}>
                             <span>
-                                <a href="mailto:klevakina.maria.ekb@gmail.com">
+                                <a href="https://drive.google.com/file/d/1k_goNmAfSLPRryG-r8UQvMYo4o70teNL/view?usp=sharing">
                                     Download CV
                                 </a>
                             </span>
