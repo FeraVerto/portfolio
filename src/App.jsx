@@ -9,7 +9,6 @@ import {Contacts} from "./component/Contacts/Contacts";
 import svg from "./image/space.svg"
 import videoMP4 from "./image/space.mp4"
 import videoWEBM from "./image/space.webm"
-/*import background from "./image/space-planets.jpg"*/
 import background from "./image/background_stars.jpg"
 
 import {MobileMenu} from "./component/MobileComponent/MobileMenu/MobileMenu";
@@ -85,5 +84,4 @@ function App() {
 }
 
 export default App;
-
 
