@@ -28,7 +28,7 @@ export const Works = () => {
 
                     <Work title={"Todolist"}
                           img={todo}
-                          link={"http://FeraVerto.github.io/todo"}
+                          link={'https://FeraVerto.github.io/todo'}
                           description={"classic todolist written with the material ui library"}/>
 
                     <Work title={"Counter"}
