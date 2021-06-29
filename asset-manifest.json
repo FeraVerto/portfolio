@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25f2f721.chunk.css",
-    "main.js": "/portfolio/static/js/main.9d25120e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9d25120e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.abac1870.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.abac1870.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b37cc905.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37cc905.js.map",
     "static/js/2.534e6a9f.chunk.js": "/portfolio/static/js/2.534e6a9f.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.25f2f721.chunk.css.map": "/portfolio/static/css/main.25f2f721.chunk.css.map",
     "static/js/2.534e6a9f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.534e6a9f.chunk.js.LICENSE.txt",
-    "static/media/Packs.fbc9e764.png": "/portfolio/static/media/Packs.fbc9e764.png",
+    "static/media/ListOfBooks.9e8abcae.jpg": "/portfolio/static/media/ListOfBooks.9e8abcae.jpg",
     "static/media/api.ca21bfb2.svg": "/portfolio/static/media/api.ca21bfb2.svg",
     "static/media/atom-symbol.543688ff.svg": "/portfolio/static/media/atom-symbol.543688ff.svg",
     "static/media/background_stars.063118a6.jpg": "/portfolio/static/media/background_stars.063118a6.jpg",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.b37cc905.js",
     "static/js/2.534e6a9f.chunk.js",
     "static/css/main.25f2f721.chunk.css",
-    "static/js/main.9d25120e.chunk.js"
+    "static/js/main.abac1870.chunk.js"
   ]
 }
