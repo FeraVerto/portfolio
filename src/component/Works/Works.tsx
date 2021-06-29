@@ -6,6 +6,7 @@ import counter from "./../../image/counter.png"
 import socialN from "./../../image/socialN.png"
 import homeworks from "./../../image/homeworks.png"
 import todo from "./../../image/todo.png"
+import listOfbooks from "./../../image/ListOfBooks.jpg"
 import inProgress from "./../../image/projectInProgress.jpg"
 import {Zoom} from "react-awesome-reveal";
 
@@ -30,15 +31,15 @@ export const Works = () => {
                           link={"http://FeraVerto.github.io/todo"}
                           description={"classic todolist written with the material ui library"}/>
 
-                    <Work title={"Cards + Packs"}
-                          img={packs}
-                          link={"https://FeraVerto.github.io/cards"}
-                          description={"MS DOS-style website for collectible cards"}/>
-
                     <Work title={"Counter"}
                           img={counter}
                           link={'https://feraverto.github.io/counter/'}
                           description={"Counter with validation and start value setting"}/>
+
+                    <Work title={"List of books"}
+                          img={listOfbooks}
+                          link={'https://feraverto.github.io/books/#/'}
+                          description={"application for saving a list of books in localStorage"}/>
 
                     <Work title={"Project in progress..."}
                           img={inProgress}
