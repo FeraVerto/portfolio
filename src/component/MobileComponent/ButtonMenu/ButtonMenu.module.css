@@ -1,0 +1,85 @@
+.g_button_menu {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  top: 20px;
+  right: 8px;
+
+  background: transparent;
+  border: 0px;
+
+  transition: all 300ms cubic-bezier(0.61, 0.01, 0.42, 1);
+  cursor: pointer;
+  z-index: 9999999999;
+}
+
+.g_button_el {
+  height: 0px;
+  width: 42px;
+
+  display: block;
+  position: absolute;
+
+  transition: all 300ms cubic-bezier(0.61, 0.01, 0.42, 1);
+  background: #dd1e4b;
+  border: 1.5px solid #dd1e4b;
+}
+
+.g_button_menu:focus {
+  outline: none;
+}
+
+.g_button_el:nth-child(1) {
+  top: 0px;
+}
+
+.g_button_el:nth-child(2) {
+  top: 13px;
+}
+
+.g_button_el:nth-child(3) {
+  top: 26px;
+}
+
+.g_button_el:nth-child(3):before {
+  content: '';
+
+  display: block;
+  position: relative;
+  top: 0.25px;
+
+  border: 2px solid #dd1e4b;
+  opacity: 0;
+}
+
+.g_button_menu:active .g_button_el:nth-child(3):before,
+.g_button_menu:active .g_button_el:nth-child(2) {
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.g_button_menu:active .g_button_el {
+  margin-left: -1px;
+  margin-top: 6px;
+
+  width: 25px;
+  height: 0px;
+
+  border: 1.5px solid #dd1e4b;
+  border-radius: 0%;
+
+  animation: division 300ms linear 1;
+}
+
+/*.g_button_menu:active .g_button_el:nth-child(2) {
+    width: 0px;
+}*/
+
+/*.g_button_menu:active .g_button_el:nth-child(3) {
+    transform: rotate(45deg);
+}
+
+.g_button_menu:active .g_button_el:nth-child(1) {
+    transform: rotate(-45deg);
+}*/
