@@ -1,187 +1,184 @@
 .app {
-    position: relative;
+  position: relative;
 }
 
 .section_wrapper {
-    margin: 0 auto;
+  margin: 0 auto;
 
-    width: 100%;
+  width: 100%;
 
-    position: relative;
+  position: relative;
 }
 
 .section {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
 }
 
 .app_aboutme {
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
 
-    z-index: -100;
+  z-index: -100;
 }
 
 .app_aboutme > div {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 .app_header_desktop {
-    width: 100%;
-    height: 60px;
+  width: 100%;
+  height: 60px;
 
-    display: flex;
+  display: flex;
 
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 
-    z-index: 99999;
+  z-index: 99999;
 }
 
 .app_particle_desktop {
-    display: block;
+  display: block;
 }
 
 .app_header_mobile {
-    display: none;
+  display: none;
 }
 
 .app_particle_mobile {
-    display: none;
+  display: none;
 }
 
 .app_particle_pad {
-    display: none;
+  display: none;
 }
 
 .section-wrapper {
 }
 
 .main_wrapper {
-    margin: 0 auto 60px auto;
-    position: relative;
+  margin: 0 auto 60px auto;
+  position: relative;
 }
 
 .particles {
-    width: 100%;
+  width: 100%;
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
+  .app_header_desktop {
+    display: none;
+  }
 
-    .app_header_desktop {
-        display: none;
-    }
+  .app_particle_desktop {
+    display: none;
+  }
 
-    .app_particle_desktop {
-        display: none;
-    }
+  .app_particle_pad {
+    display: none;
+  }
 
-    .app_particle_pad {
-        display: none;
-    }
+  .app_particle_pad video {
+    display: none;
+  }
 
-    .app_particle_pad video {
-        display: none;
-    }
+  .app_particle_desktop img {
+    width: 100%;
+  }
 
-    .app_particle_desktop img {
-        width: 100%;
-    }
+  .app_particle_mobile {
+    display: block;
+    z-index: -999999;
+  }
 
-    .app_particle_mobile {
-        display: block;
-        z-index: -999999;
-    }
+  .app_particle_mobile img {
+    position: fixed;
+    height: 100vh;
+  }
 
-    .app_particle_mobile img {
-        position: fixed;
-        height: 100vh;
-    }
+  .app_header_mobile {
+    width: 100%;
 
-    .app_header_mobile {
-        width: 100%;
+    display: block;
+    position: fixed;
 
-        display: block;
-        position: fixed;
+    z-index: 999999999;
+  }
 
-        z-index: 999999999;
-    }
+  .on_button {
+    position: fixed;
+    color: white;
+    z-index: 999999;
+  }
 
-    .on_button {
-        position: fixed;
-        color: white;
-        z-index: 999999;
-    }
+  .app_aboutme {
+    height: 100vh;
+  }
 
-    .app_aboutme {
-        height: 100vh;
-    }
+  .main_wrapper {
+    margin: 0;
+  }
 
-    .main_wrapper {
-        margin: 0;
-    }
-
-    .app_works {
-        padding: 0;
-    }
+  .app_works {
+    padding: 0;
+  }
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-    .app_particle_desktop {
-        display: none;
-    }
+@media only screen and (max-width: 768px) {
+  .app_particle_desktop {
+    display: none;
+  }
 
-    /*.app_aboutme {
+  /*.app_aboutme {
         width: 100%;
     }*/
 
-    .app_particle_pad {
-        display: none;
-    }
+  .app_particle_pad {
+    display: none;
+  }
 
-    .main_wrapper {
-        margin: 0 15px;
-    }
-
+  .main_wrapper {
+    margin: 0 15px;
+  }
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-    /*.app {
+@media only screen and (max-width: 992px) {
+  /*.app {
         height: 100%;
     }*/
 
-    .app_aboutme {
-        height: 100vh;
-    }
+  .app_aboutme {
+    height: 100vh;
+  }
 
-    .app_particle_desktop {
-        display: none;
-    }
+  .app_particle_desktop {
+    display: none;
+  }
 
-    .app_particle_pad {
-        width: 100%;
+  .app_particle_pad {
+    width: 100%;
 
-        display: block;
-        position: fixed;
-    }
+    display: block;
+    position: fixed;
+  }
 
-    .app_particle_pad video {
-        width: 100%;
-    }
-
+  .app_particle_pad video {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1062px) {
-    .app_works {
-        padding: 0;
-    }
+  .app_works {
+    padding: 0;
+  }
 
-    .main_wrapper {
-        margin-bottom: 60px;
-    }
+  .main_wrapper {
+    margin-bottom: 60px;
+  }
 }

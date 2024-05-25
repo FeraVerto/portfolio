@@ -3,96 +3,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap');
 
 .about {
-    padding: 0;
+  padding: 0;
 
-    height: 100vh;
+  height: 100vh;
 
-    position: relative;
+  position: relative;
 }
 
 .about_container {
-    margin: 0 auto;
+  margin: 0 auto;
 
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    position: absolute;
-    top: 25%;
+  position: absolute;
+  top: 25%;
 }
 
 .about_h1 {
-    margin: 0 auto;
+  margin: 0 auto;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    color: white;
-    font-size: 6rem;
+  color: white;
+  font-size: 6rem;
 }
 
 .p_name {
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 6rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 6rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
 
-    background-image: -webkit-linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
-    background-image: linear-gradient(45deg, #E0040B 15%, #dd1e4b 65%);
+  background-image: -webkit-linear-gradient(45deg, #e0040b 15%, #dd1e4b 65%);
+  background-image: linear-gradient(45deg, #e0040b 15%, #dd1e4b 65%);
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about_h1_part {
-    margin: 0 auto;
+  margin: 0 auto;
 
-    font-size: 2rem;
-    color: #6f6f6f;
-    background-image: none;
-    text-transform: uppercase;
+  font-size: 2rem;
+  color: #6f6f6f;
+  background-image: none;
+  text-transform: uppercase;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    .about {
-        height: 100%;
-    }
+  .about {
+    height: 100%;
+  }
 
-    .about_container {
-        margin: 0;
-        width: 100%;
-        position: relative;
-    }
+  .about_container {
+    margin: 0;
+    width: 100%;
+    position: relative;
+  }
 
-    .p_name {
-        font-size: 3rem;
-    }
+  .p_name {
+    font-size: 3rem;
+  }
 
-    .about_h1_part {
-        font-size: 1.5rem;
-    }
+  .about_h1_part {
+    font-size: 1.5rem;
+  }
 
-    .about_h1 {
-        padding: 0 10px;
-        width: 100%;
+  .about_h1 {
+    padding: 0 10px;
+    width: 100%;
 
-        align-items: center;
+    align-items: center;
 
-        font-size: 0;
-    }
-
+    font-size: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .about_h1 {
-        padding: 10px;
-        width: 100%;
-    }
+  .about_h1 {
+    padding: 10px;
+    width: 100%;
+  }
 
-    .about {
-        height: 100vh;
-    }
+  .about {
+    height: 100vh;
+  }
 }
