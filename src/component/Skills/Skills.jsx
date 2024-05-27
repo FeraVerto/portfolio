@@ -15,25 +15,6 @@ export const Skills = () => {
       <h2>My skills</h2>
 
       <ul className={s.skills_list}>
-        <Slide direction={'left'}>
-          <Skill
-            title={'HTML+CSS'}
-            icon={cssIcon}
-            description={'semantics, аdaptive, flexbox, grid'}
-          />
-          <Skill
-            title={'JS'}
-            icon={jsIcon}
-            description={
-              'ECMAScript 6, DOM, async await, this, promise, event loop,  classes, OOP'
-            }
-          />
-          <Skill
-            title={'Rest API'}
-            icon={apiIcon}
-            description={'HTTP codes, HTTP methods, axios'}
-          />
-        </Slide>
         <Slide direction={'right'}>
           <Skill
             title={'React'}
@@ -53,6 +34,25 @@ export const Skills = () => {
             title={'TypeScript'}
             icon={tsIcon}
             description={'base types, enum base types'}
+          />
+        </Slide>
+        <Slide direction={'left'}>
+          <Skill
+            title={'HTML+CSS'}
+            icon={cssIcon}
+            description={'semantics, аdaptive, flexbox, grid'}
+          />
+          <Skill
+            title={'JS'}
+            icon={jsIcon}
+            description={
+              'ECMAScript 6, DOM, async await, this, promise, event loop,  classes, OOP'
+            }
+          />
+          <Skill
+            title={'Rest API'}
+            icon={apiIcon}
+            description={'HTTP codes, HTTP methods, axios'}
           />
         </Slide>
       </ul>

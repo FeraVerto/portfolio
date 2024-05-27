@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import ParticlesComponent from './particles/ParticlesComponent';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      {/* <ParticlesComponent /> */}
       <App />
     </BrowserRouter>
   </React.StrictMode>,

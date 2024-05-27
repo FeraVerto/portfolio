@@ -10,10 +10,10 @@ import svg from './image/space.svg';
 import videoMP4 from './image/space.mp4';
 import videoWEBM from './image/space.webm';
 import background from './image/background_stars.jpg';
+import ParticlesComponent from './particles/ParticlesComponent';
 
 import { MobileMenu } from './component/MobileComponent/MobileMenu/MobileMenu';
 import { ButtonMenu } from './component/MobileComponent/ButtonMenu/ButtonMenu';
-import { Particles } from './particles/particles';
 
 function App() {
   let [menu, setMenu] = useState(false);
@@ -23,7 +23,8 @@ function App() {
   return (
     <div className={s.app}>
       <div className={s.app_particle_desktop}>
-        <Particles />
+        <ParticlesComponent />
+        {/* <Particles /> */}
       </div>
 
       <div className={s.app_particle_pad}>

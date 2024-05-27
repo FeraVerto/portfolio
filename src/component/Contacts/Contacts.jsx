@@ -48,13 +48,13 @@ export const Contacts = () => {
           <ul className={s.contact_list}>
             <li className={s.contact_item}>
               <span>
-                <a href="tel:89920149906">+7-992-014-99-06</a>
+                <a href="https://t.me/Mariya_Klevakina">Телеграм</a>
               </span>
             </li>
             <li className={s.contact_item}>
               <span>
-                <a href="mailto:klevakina.maria.ekb@gmail.com">
-                  klevakina.maria.ekb@gmail.com
+                <a href="mailto:mariya.klevakina.ekb@gmail.com">
+                  mariya.klevakina.ekb@gmail.com
                 </a>
               </span>
             </li>

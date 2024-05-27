@@ -2,9 +2,10 @@ import React from 'react';
 import { Work } from './Work/Work';
 import s from './Works.module.css';
 import packs from './../../image/Packs.png';
-import counter from './../../image/counter.png';
-import socialN from './../../image/socialN.png';
-import homeworks from './../../image/homeworks.png';
+
+import socialN from './../../image/network.jpg';
+import menu from './../../image/menu.jpg';
+import memes from './../../image/mem.jpg';
 import todo from './../../image/todo.png';
 import listOfbooks from './../../image/ListOfBooks.jpg';
 import inProgress from './../../image/projectInProgress.jpg';
@@ -17,35 +18,33 @@ export const Works = () => {
       <Zoom>
         <ul className={s.works_list}>
           <Work
-            title={'Mini project'}
-            img={homeworks}
-            link={'https://feraverto.github.io/simple-react-homeworks/'}
-            description={'A project with various mini-components'}
+            title={'Menu and Groceries'}
+            img={menu}
+            link={'https://FeraVerto.github.io/menu-and-groceries'}
+            description={'Menu for home use. In progress.'}
           />
 
           <Work
             title={'Social network'}
             img={socialN}
-            link={
-              'https://feraverto.github.io/network-learning-project-typescript'
-            }
+            link={'http://FeraVerto.github.io/Social-Network'}
             description={'project on class component and typescript'}
           />
 
           <Work
-            title={'Todolist'}
-            img={todo}
-            link={'https://FeraVerto.github.io/todo'}
+            title={'Mini test about mems'}
+            img={memes}
+            link={'FeraVerto.github.io/millionaire'}
             description={
               'classic todolist written with the material ui library'
             }
           />
 
           <Work
-            title={'Counter'}
-            img={counter}
-            link={'https://feraverto.github.io/counter/'}
-            description={'Counter with validation and start value setting'}
+            title={'Todo'}
+            img={todo}
+            link={'http://FeraVerto.github.io/todo'}
+            description={'Just Todo'}
           />
 
           <Work
@@ -61,7 +60,7 @@ export const Works = () => {
             title={'Project in progress...'}
             img={inProgress}
             link={''}
-            description={'Project in progress... Maybe this is your project'}
+            description={'Project in progress...'}
           />
         </ul>
       </Zoom>
