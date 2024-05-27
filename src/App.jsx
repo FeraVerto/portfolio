@@ -24,7 +24,6 @@ function App() {
     <div className={s.app}>
       <div className={s.app_particle_desktop}>
         <ParticlesComponent />
-        {/* <Particles /> */}
       </div>
 
       <div className={s.app_particle_pad}>

@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "http://FeraVerto.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,7 +27,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
