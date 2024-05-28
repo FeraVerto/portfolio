@@ -35,7 +35,7 @@ export const Works = () => {
           <Work
             title={'Mini test about mems'}
             img={memes}
-            link={'FeraVerto.github.io/millionaire'}
+            link={'http://FeraVerto.github.io/millionaire'}
             description={
               'classic todolist written with the material ui library'
             }
