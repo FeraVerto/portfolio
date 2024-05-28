@@ -7,6 +7,7 @@ import socialN from './../../image/network.jpg';
 import menu from './../../image/menu.jpg';
 import memes from './../../image/mem.jpg';
 import todo from './../../image/todo.png';
+import prometeus from './../../image/prometeus.jpg';
 import listOfbooks from './../../image/ListOfBooks.jpg';
 import inProgress from './../../image/projectInProgress.jpg';
 import { Zoom } from 'react-awesome-reveal';
@@ -54,6 +55,13 @@ export const Works = () => {
             description={
               'application for saving a list of books in localStorage'
             }
+          />
+
+          <Work
+            title={'Prometeus-viewer'}
+            img={prometeus}
+            link={'https://feraverto.github.io/prometeus-viewer/'}
+            description={'tool for convenient display of metrics in a table'}
           />
 
           <Work
