@@ -60,7 +60,7 @@ export const Contacts = () => {
             </li>
             <li className={s.contact_item}>
               <span>
-                <a href="https://disk.yandex.ru/i/AQfts22HIjwsYQ">
+                <a href="https://disk.yandex.ru/i/170FEkwcUgKlSw">
                   Download CV
                 </a>
               </span>

@@ -56,9 +56,6 @@
   display: none;
 }
 
-.section-wrapper {
-}
-
 .main_wrapper {
   margin: 0 auto 60px auto;
   position: relative;
@@ -86,11 +83,8 @@
     display: none;
   }
 
-  .app_particle_desktop img {
-    width: 100%;
-  }
-
   .app_particle_mobile {
+    width: 100%;
     display: block;
     z-index: -999999;
   }
@@ -116,6 +110,7 @@
   }
 
   .app_aboutme {
+    
     height: 100vh;
   }
 

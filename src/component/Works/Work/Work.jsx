@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Work.module.css';
 
-export const Work = ({ title, description, link, img }) => {
+export const Work = ({ title, description, link, img, ghLink }) => {
   return (
     <li className={s.work}>
       <div className={s.work_background}>

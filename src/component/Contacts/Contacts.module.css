@@ -161,6 +161,11 @@
     width: 100%;
   }
 
+  .contact_item span {
+    padding: 20px 0 20px 0;
+    width: 100%;
+  }
+
   .contacts_width {
     width: 100%;
   }
